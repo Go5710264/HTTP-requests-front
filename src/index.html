@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe</title>
+</head>
+<body>
+    <div class="subscribe">
+        <h3>Подписка на рассылку sms-сообщений:</h3>
+        <form class="subscribe-form" method="POST" action="http://localhost:7070">
+
+            <label>Введите свое имя:</label>
+            <input class="name" name="name" class="input" placeholder="ФИО" required>
+
+            <label>Введите свой номер телефона:</label>
+            <input class="phone" name="phone" class="input" placeholder="+7(000)-000-00-00" required>
+
+            <button class="btn">Записаться</button>
+            <button class="btn unsubscribe-btn">Отписаться</button>
+        </form>
+
+        <h3>Загрузка изображения на сервер</h3>
+        <form class="upload-form">
+      
+            <div class="image">
+                <input type="file" name="file" accept="image/*">
+                <label>Введите название изображения:</label>
+                <input type="text" name="name" value="My Photo">
+            </div>
+
+            <button>Upload</button>
+
+        </form>
+
+        <img class="preview-image">
+    </div>
+</body>
+</html>

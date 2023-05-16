@@ -1,0 +1,48 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    /* height: 300px; */
+}
+
+h3{
+    margin-bottom: 10px;
+}
+
+.subscribe-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    margin-top: 5px;
+}
+
+.upload-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 100px;
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 3px;
+    border: solid 1px;
+}
+
+.preview-image {
+    margin-top: 10px;
+    width: 250px;
+}
