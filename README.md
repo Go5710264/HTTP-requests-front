@@ -1,4 +1,10 @@
+[![Dak1CI](https://github.com/Go5710264/HTTP-requests-front/actions/workflows/github-actions-demo.yml/badge.svg)](https://github.com/Go5710264/HTTP-requests-front/actions/workflows/github-actions-demo.yml)
+
 ## Отправление HTTP-запросов на сервер и обработка ответа сервера
+
+<br>
+
+#### [BackEnd проекта](https://github.com/Go5710264/HTTP-requests-back.git)
 
 <br>
 
